@@ -1,0 +1,62 @@
+li {
+    display: inline-block;
+    font-size: 10px;
+    font-style: normal;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+header {
+    background-color: rgb(196, 241, 255);
+    border-bottom: 2px solid black;
+    padding: 10px;
+    height: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px; 
+}
+
+.make {
+    display: block;
+    height: 200px;
+    overflow-y: scroll;
+    width: 100px;
+    padding: 10px;
+}
+
+.a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.photo {
+    margin-top: 10px;
+}
+
+.front {
+    width: 300px;
+    height: 400px;
+}
+
+.end {
+    width: 300px; 
+}
+
+.end button {
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 10px; 
+    margin-top: 10px; 
+    cursor: pointer; 
+}
+.end button:hover {
+    background-color: #45a049; 
+}
+.end p s {
+    color: green;
+}

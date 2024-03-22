@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Profile Page</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .profile {
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+        }
+        .posts {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .post {
+            width: 33.3%;
+            padding-bottom: 33.3%;
+            background-color: grey;
+            position: relative;
+        }
+        img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile">
+        <div class="header">
+            <!-- Add header content like profile picture, username, etc -->
+            Header Content
+        </div>
+        <div class="posts">
+            <!-- Add posts here -->
+            <div class="post">
+                <img src="image1.jpg" alt="Image description">
+            </div>
+            <!-- Repeat for other images -->
+        </div>
+    </div>
+</body>
+</html>
